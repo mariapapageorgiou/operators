@@ -48,8 +48,10 @@ public class Main {
         result /= 3; // 15 / 3 = 5
         System.out.println("15 / 3 = " + result);
 
-
-
-
+        boolean isAlien = false;        // the = operator assigns the value false to the variable isAlien
+        if (isAlien == false) {         // the == is testing to see whether the particular value is false
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+        }
     }
 }
