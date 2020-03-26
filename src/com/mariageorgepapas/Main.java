@@ -77,5 +77,11 @@ public class Main {
         if (isCar) {                   // ! is the NOT operator, aka Logical Complement operator
             System.out.println("This is not supposed to happen");
         }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;    // ? is the Ternary operator
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
     }
 }
