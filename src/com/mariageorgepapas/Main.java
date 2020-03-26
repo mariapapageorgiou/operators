@@ -79,7 +79,7 @@ public class Main {
         }
 
         isCar = true;
-        boolean wasCar = isCar ? true : false;    // ? is the Ternary operator
+        boolean wasCar = isCar ? true : false;    // ?: is the Ternary operator
         if (wasCar) {
             System.out.println("wasCar is true");
         }
