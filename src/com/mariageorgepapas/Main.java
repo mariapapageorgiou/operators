@@ -67,5 +67,15 @@ public class Main {
         if ((topScore > 90) || (secondTopScore <= 90)) {           // || is the Logical OR operator, either or both of the conditions need to be true
             System.out.println("Either or both of the conditions are true");
         }
+
+        int newValue = 50;
+        if (newValue == 50) {                   // assignment operator = vs equals to operator ==
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if (isCar) {                   // ! is the NOT operator, aka Logical Complement operator
+            System.out.println("This is not supposed to happen");
+        }
     }
 }
